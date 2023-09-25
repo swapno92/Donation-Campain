@@ -7,7 +7,7 @@ const Home = () => {
     const donates = useLoaderData()
     return (
         <>
-            <div className="flex flex-col justify-center items-center space-y-6  mt-20 h-80 line">
+            <div className="flex flex-col justify-center items-center space-y-6  mt-20 h-80 ">
                 <h2 className="text-4xl font-bold text-center">I Grow By Helping People In Need</h2>
                 <div>
                     <input type="text" name="" id="" placeholder="Search here..." className="border border-[rgba(11,11,11,0.40)] px-10 py-1 rounded-l" />

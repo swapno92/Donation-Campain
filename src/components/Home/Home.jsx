@@ -16,7 +16,7 @@ const Home = () => {
             </div>
             <img src="/fc1f79e18cdc1a12320b9b10ec3e253d.jpg" alt="" className="h-[90vh] w-full absolute -top-32 opacity-20 " />
 
-            <div className="absolute grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 mx-auto w-full px-32 gap-4">
+            <div className="absolute grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 mx-auto w-full md:px-32 px-2 gap-4">
 
                 {
                     donates.map(donate => <Donate key={donate.id} donate={donate}></Donate>)

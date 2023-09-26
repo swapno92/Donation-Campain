@@ -9,6 +9,7 @@ import Main from './components/Main/Main';
 import Home from './components/Home/Home';
 import Card from './components/Card/Card';
 import Donation from './components/Donation/Donation';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
     element: <Main></Main>,
     children: [
       {
-        path: '',
+        path: '/',
         element: <Home></Home>,
         loader: () => fetch('/donate.json')
       },
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
         path: '/donation',
         element: <Donation></Donation>
       },
+      {
+        path:'/static',
+        element:<Statistics></Statistics>,
+        loader: () => fetch('/donate.json')
+      }
     ]
   },
 ]);

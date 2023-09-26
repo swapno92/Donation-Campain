@@ -1,0 +1,19 @@
+/* .div{
+    color: red;
+    opacity: .9;
+    color: red;
+}
+.banner h2{
+    color: red;
+    opacity: .90 ; 
+} */
+.banner{
+    background-image: url('/fc1f79e18cdc1a12320b9b10ec3e253d.jpg');
+    background-color: rgba(139, 27, 27, 0.1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 80px;
+    opacity: .7;
+}

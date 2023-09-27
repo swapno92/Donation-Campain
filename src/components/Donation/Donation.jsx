@@ -38,8 +38,8 @@ const Donation = () => {
                     </div>
                 </div>
             }
-            {donation.length > 4 && <div className="flex justify-center items-center">
-                <button onClick={() => setShow(!show)} className="bg-[#009444] text-white px-3 py py-2 rounded-lg">{show ? 'See less' : 'See more'}</button>
+            {donation.length > 4 && <div className={`flex justify-center items-center ${show?'hidden' : 'block'}`}>
+                <button onClick={() => setShow(!show)} className="bg-[#009444] text-white px-3 py py-2 rounded-lg">See more</button>
             </div>}
         </div>
     );

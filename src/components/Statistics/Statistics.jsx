@@ -18,23 +18,23 @@ const Statistics = () => {
     ];
     return (
         <>
-        <div className="flex justify-center items-center">
-            <PieChart height={200} width={500}>
-                <Pie
-                    data={donationData}
-                    dataKey="donation"
-                    nameKey="name"
-                    cx="50%"
-                    cy="50%"
-                    outerRadius={50}
-                    label={(val) => (val.percent * 100).toFixed(2) + '%'}>
-                    <Cell key="donation" fill="#FF444A" />
-                    <Cell key="donation" fill="#00C49F" />
-                </Pie>
-                <Tooltip />
-                <Legend />
-            </PieChart>
-        </div>
+            <div className="flex justify-center items-center">
+                <PieChart height={400} width={500}>
+                    <Pie
+                        data={donationData}
+                        dataKey="donation"
+                        nameKey="name"
+                        cx="50%"
+                        cy="50%"
+                        outerRadius={120}
+                        label={(val) => (val.percent * 100).toFixed(2) + '%'}>
+                        <Cell key="donation" fill="#FF444A" />
+                        <Cell key="donation" fill="#00C49F" />
+                    </Pie>
+                    <Tooltip />
+                    <Legend />
+                </PieChart>
+            </div>
         </>
     );
 };

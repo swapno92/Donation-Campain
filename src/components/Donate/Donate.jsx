@@ -7,7 +7,7 @@ const Donate = ({ donate }) => {
     // console.log(text_color);
     return (
         <Link to={`/donate/${id}`}>
-            <div style={{ backgroundColor: card_background, color: color }} className=' '>
+            <div style={{ backgroundColor: card_background, color: color }} >
                 <div className='mx-auto w-[full] h-[155px]'>
                     <img src={img} className="w-full h-full" />
                 </div>

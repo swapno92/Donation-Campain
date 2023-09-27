@@ -26,7 +26,7 @@ const Home = () => {
 
     return (
         <>
-            <div className=" banner flex flex-col justify-center items-center space-y-6  mt-2  ">
+            <div className="md:mx-0 mx-2 banner flex flex-col justify-center items-center space-y-6  mt-2  ">
                 <h2 className="text-4xl font-bold text-center">I Grow By Helping People In Need</h2>
                 <div className='div'>
                     <input type="text" name="" id="searchInput" placeholder="Search here..." className="border border-[rgba(11,11,11,0.40)] px-10 py-1 rounded-l" />

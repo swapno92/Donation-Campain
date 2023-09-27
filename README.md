@@ -1,8 +1,6 @@
-# React + Vite
+# Three features about the project are given below
+* Each card is shown in the home router, and if you search by category name in the above search option, all cards of the same category will be shown.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Each cart selected from the card details is shown in the donation router, and if there are more than four carts, click the show more button to view the cards.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* The total cards and the percentage of donated cards in the states route are shown in a pie chart

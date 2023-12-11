@@ -15,14 +15,11 @@ const Home = () => {
         }
         return false
     })
-
-
+    
     const handleSearch = () => {
         const searchValue = document.getElementById('searchInput').value
         setSearchItem(searchValue)
     }
-
-
 
     return (
         <>
